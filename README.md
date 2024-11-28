@@ -41,7 +41,7 @@ node/01-node-farm/
 │
 ├── index.js               # Main server file
 ```
-# *********************************************************************************************
+# ************************************************************************************************************************************
 
 # Project 02:  How Node.js Works Behind the Scenes
 
@@ -109,7 +109,7 @@ This project involves studying and implementing concepts without a concrete appl
    ```bash
    node filename.js
 
-## Project Structure
+## Folder Structure
 
 ```plaintext
 node/02-how-node-works/
@@ -125,3 +125,45 @@ node/02-how-node-works/
 ```
 
 
+# ************************************************************************************************************************************
+
+
+# Project 03: Asynchronous JavaScript
+
+This project explores the evolution of asynchronous programming in JavaScript, focusing on promises, `async/await`, and efficient handling of multiple asynchronous tasks. Through practical examples, it demonstrates how to overcome callback hell and improve code readability and maintainability.
+
+## Key Concepts Covered
+
+1. **The Problem with Callbacks: Callback Hell**  
+   - Understanding the issues with deeply nested callbacks and their impact on code readability and error handling.
+
+2. **From Callback Hell to Promises**  
+   - Transitioning from callback-based code to promises for better control flow and error management.
+
+3. **Building Promises**  
+   - Creating custom promises from scratch to understand their inner workings.
+
+4. **Consuming Promises with Async/Await**  
+   - Simplifying asynchronous code using `async` and `await`.
+
+5. **Returning Values from Async Functions**  
+   - Techniques for handling and returning values from asynchronous functions.
+
+6. **Waiting for Multiple Promises Simultaneously**  
+   - Using `Promise.all` to efficiently manage and resolve multiple promises at once.
+
+---
+
+## Folder Structure
+
+```plaintext
+node/03-asynchronous-JS/
+│
+├── dog.txt                          # Contains a list of dog breeds
+├── dog-img.txt                      # Stores information about a single dog image
+├── dog-img-multiple-promises.txt    # Stores results of resolving multiple promises
+├── index.js                         # Main script demonstrating concepts
+├── package.json                     # Project dependencies and metadata
+├── package-lock.json                # Dependency lock file
+├── node_modules/                    # Installed npm modules
+```
